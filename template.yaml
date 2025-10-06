@@ -100,7 +100,7 @@ Resources:
   ## Admin Password
   RdsDbAdminPassword:
     Type: AWS::SecretsManager::Secret
-    DeletionPolicy: Retain
+    DeletionPolicy: RetainExceptOnCreate
     UpdateReplacePolicy: Retain
     Properties:
       Description: RDS Admin Password
