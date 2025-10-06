@@ -1,0 +1,13 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tfe-db
+  description: Database for RFE
+  annotations:
+    github.com/project-slug: ServerlessOpsIO/tfe-db
+spec:
+  type: iac
+  lifecycle: production
+  owner: group:Developers
+  system: system:Versant

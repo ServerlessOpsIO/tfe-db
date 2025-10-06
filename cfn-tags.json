@@ -1,0 +1,5 @@
+{
+  "org:domain": "Development",
+  "org:system": "Versant",
+  "org:component": $env.GITHUB_REPOSITORY_NAME_PART_SLUG_CS
+}
